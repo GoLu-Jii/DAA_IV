@@ -21,7 +21,6 @@ def findMaxOcc(arr):
             maxCount = count[i]
             result = chr(i + ord('a'))  # Convert index back to character
 
-    # Print result
     if maxCount <= 1:
         print("No Duplicates Present")
     else:
